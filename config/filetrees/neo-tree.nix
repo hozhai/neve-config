@@ -53,7 +53,7 @@
     }
     {
       mode = "n";
-      key = "<leader>ge right";
+      key = "<leader>ge";
       action = ":Neotree git_status<CR>";
       options = {
         silent = true;

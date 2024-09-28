@@ -27,8 +27,8 @@
       hlsearch = true;
       incsearch = true;
 
-      # Enable text wrap
-      wrap = true;
+      # Disable text wrap
+      wrap = false;
 
       # Better splitting
       splitbelow = true;
@@ -95,8 +95,8 @@
       ];
 
       # Enable chars list
-      list = true; # Show invisible characters (tabs, eol, ...)
-      listchars = "eol:↲,tab:|->,lead:·,space: ,trail:•,extends:→,precedes:←,nbsp:␣";
+      list = true; # Show invisible characters (tabs, ...)
+      listchars = "tab:|->,lead:·,space: ,trail:•,extends:→,precedes:←,nbsp:␣";
 
       # More space in the neovim command line for displaying messages
       cmdheight = 2;
@@ -132,7 +132,8 @@
         g.neovide_transparency = 0.8
 
         -- Neovide Fonts
-        o.guifont = "MonoLisa Trial:Medium:h15"
+        o.guifont = "JuliaMono Nerd Font:Medium:h15"
+        -- o.guifont = "MonoLisa Trial:Medium:h15"
         -- o.guifont = "CommitMono:Medium:h15"
         -- o.guifont = "JetBrainsMono Nerd Font:h14:Medium:i"
         -- o.guifont = "FiraMono Nerd Font:Medium:h14"
