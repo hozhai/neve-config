@@ -1,6 +1,6 @@
 {
   plugins.neo-tree = {
-    enable = false;
+    enable = true;
     enableDiagnostics = true;
     enableGitStatus = true;
     enableModifiedMarkers = true;
@@ -27,7 +27,7 @@
     {
       mode = "n";
       key = "<leader>e";
-      action = ":Neotree toggle reveal_force_cwd<cr>";
+      action = ":Neotree toggle reveal_force_cwd right<cr>";
       options = {
         silent = true;
         desc = "Explorer NeoTree (root dir)";
@@ -36,7 +36,7 @@
     {
       mode = "n";
       key = "<leader>E";
-      action = "<cmd>Neotree toggle<CR>";
+      action = "<cmd>Neotree toggle right<CR>";
       options = {
         silent = true;
         desc = "Explorer NeoTree (cwd)";
@@ -45,7 +45,7 @@
     {
       mode = "n";
       key = "<leader>be";
-      action = ":Neotree buffers<CR>";
+      action = ":Neotree buffers right<CR>";
       options = {
         silent = true;
         desc = "Buffer explorer";
@@ -53,7 +53,7 @@
     }
     {
       mode = "n";
-      key = "<leader>ge";
+      key = "<leader>ge right";
       action = ":Neotree git_status<CR>";
       options = {
         silent = true;
