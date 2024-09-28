@@ -28,7 +28,10 @@
             };
           };
         };
-        nil-ls = {
+        nil_ls = {
+          enable = true;
+        };
+        nixd = {
           enable = true;
         };
         ts-ls = {

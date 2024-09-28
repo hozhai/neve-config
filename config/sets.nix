@@ -122,7 +122,7 @@
         -- Neovide options
         g.neovide_fullscreen = false
         g.neovide_hide_mouse_when_typing = false
-        g.neovide_refresh_rate = 165
+        g.neovide_refresh_rate = 144
         g.neovide_cursor_vfx_mode = "ripple"
         g.neovide_cursor_animate_command_line = true
         g.neovide_cursor_animate_in_insert_mode = true
@@ -130,9 +130,10 @@
         g.neovide_cursor_vfx_particle_density = 14.0
         g.neovide_cursor_vfx_particle_speed = 12.0
         g.neovide_transparency = 0.8
+        g.neovide_cursor_smooth_blink = true
 
         -- Neovide Fonts
-        o.guifont = "JuliaMono Nerd Font:Medium:h15"
+        o.guifont = "JuliaMono:Medium:h15,Symbols Nerd Font:Medium:h15"
         -- o.guifont = "MonoLisa Trial:Medium:h15"
         -- o.guifont = "CommitMono:Medium:h15"
         -- o.guifont = "JetBrainsMono Nerd Font:h14:Medium:i"
