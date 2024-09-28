@@ -27,38 +27,38 @@
     {
       mode = "n";
       key = "<leader>e";
-      action = ":Neotree toggle reveal_force_cwd right<cr>";
+      action = "<Cmd>Neotree filesystem reveal right toggle<cr>";
       options = {
         silent = true;
         desc = "Explorer NeoTree (root dir)";
       };
     }
-    {
-      mode = "n";
-      key = "<leader>E";
-      action = "<cmd>Neotree toggle right<CR>";
-      options = {
-        silent = true;
-        desc = "Explorer NeoTree (cwd)";
-      };
-    }
-    {
-      mode = "n";
-      key = "<leader>be";
-      action = ":Neotree buffers right<CR>";
-      options = {
-        silent = true;
-        desc = "Buffer explorer";
-      };
-    }
-    {
-      mode = "n";
-      key = "<leader>ge";
-      action = ":Neotree git_status<CR>";
-      options = {
-        silent = true;
-        desc = "Git explorer";
-      };
-    }
+    # {
+    #   mode = "n";
+    #   key = "<leader>E";
+    #   action = "<cmd>Neotree toggle right<CR>";
+    #   options = {
+    #     silent = true;
+    #     desc = "Explorer NeoTree (cwd)";
+    #   };
+    # }
+    # { # Just use Telescope
+    #   mode = "n";
+    #   key = "<leader>be";
+    #   action = ":Neotree buffers right<CR>";
+    #   options = {
+    #     silent = true;
+    #     desc = "Buffer explorer";
+    #   };
+    # }
+    # { # Use Sidebar.nvim
+    #   mode = "n";
+    #   key = "<leader>ge";
+    #   action = ":Neotree git_status<CR>";
+    #   options = {
+    #     silent = true;
+    #     desc = "Git explorer";
+    #   };
+    # }
   ];
 }
