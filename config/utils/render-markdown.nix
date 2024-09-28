@@ -1,7 +1,6 @@
 {
-  plugins.render-markdown = {
-    enable = true;
-  };
+  plugins.render-markdown.enable = true;
+
   keymaps = [
     {
       mode = "n";
