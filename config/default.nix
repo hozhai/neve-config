@@ -37,8 +37,6 @@
     ./lsp/lspsaga.nix
     ./lsp/trouble.nix
 
-    ./none-ls/none-ls.nix
-
     ./pluginmanagers/lazy.nix
 
     ./snippets/luasnip.nix
