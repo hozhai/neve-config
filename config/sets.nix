@@ -133,7 +133,7 @@
         g.neovide_cursor_smooth_blink = true
 
         -- Neovide Fonts
-        o.guifont = "JuliaMono:Medium,Symbols Nerd Font:Medium"
+        o.guifont = "Operator Mono:Medium,Symbols Nerd Font:Medium"
         -- o.guifont = "MonoLisa Trial:Medium:h15"
         -- o.guifont = "CommitMono:Medium:h15"
         -- o.guifont = "JetBrainsMono Nerd Font:h14:Medium:i"
