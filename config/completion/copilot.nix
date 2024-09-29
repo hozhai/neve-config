@@ -21,12 +21,12 @@
       autoTrigger = true;
       debounce = 75;
       keymap = {
-        accept = "<M-l>";
+        accept = "<A-f>";
         acceptWord = false;
         acceptLine = false;
-        next = "<M-]>";
-        prev = "<M-[>";
-        dismiss = "<C-]>";
+        next = "<A-]>";
+        prev = "<A-[>";
+        dismiss = "<A-]>";
       };
     };
     filetypes = {

@@ -1,7 +1,7 @@
 {
   plugins = {
     lsp-format = {
-      enable = false; # Enable it if you want lsp-format integration for none-ls
+      enable = true; # Enable it if you want lsp-format integration for none-ls
     };
     lsp = {
       enable = true;
