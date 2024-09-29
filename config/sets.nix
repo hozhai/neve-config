@@ -87,7 +87,7 @@
       # Change cursor options
       guicursor = [
         "n-v-c:block" # Normal, visual, command-line: block cursor
-        "i-ci-ve:block" # Insert, command-line insert, visual-exclude: vertical bar cursor with block cursor, use "ver25" for 25% width
+        "i-ci-ve:ver25" # Insert, command-line insert, visual-exclude: vertical bar cursor with block cursor, use "ver25" for 25% width
         "r-cr:hor20" # Replace, command-line replace: horizontal bar cursor with 20% height
         "o:hor50" # Operator-pending: horizontal bar cursor with 50% height
         "a:blinkwait700-blinkoff400-blinkon250-Cursor/lCursor" # All modes: blinking settings
@@ -133,7 +133,7 @@
         g.neovide_cursor_smooth_blink = true
 
         -- Neovide Fonts
-        o.guifont = "JuliaMono:Medium:h15,Symbols Nerd Font:Medium:h15"
+        o.guifont = "JuliaMono:Medium,Symbols Nerd Font:Medium"
         -- o.guifont = "MonoLisa Trial:Medium:h15"
         -- o.guifont = "CommitMono:Medium:h15"
         -- o.guifont = "JetBrainsMono Nerd Font:h14:Medium:i"
