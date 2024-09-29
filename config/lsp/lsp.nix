@@ -76,7 +76,6 @@
         ruff-lsp = {
           enable = true;
         };
-
         rust-analyzer = {
           enable = true;
           installCargo = true;
@@ -96,6 +95,12 @@
               enable = true;
             };
           };
+        };
+        jsonls = {
+          enable = true;
+        };
+        tailwindcss = {
+          enable = true;
         };
       };
       # keymaps = {
