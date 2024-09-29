@@ -457,7 +457,7 @@
 
        if vim.lsp.inlay_hint then
          vim.keymap.set('n', '<leader>uh', function()
-           vim.lsp.inlay_hint(0, nil)
+           vim.lsp.inlay_hint.toggle()
          end, { desc = 'Toggle Inlay Hints' })
        end
   '';

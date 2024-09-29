@@ -2,25 +2,43 @@
   plugins.conform-nvim = {
     enable = true;
     settings = {
-      notifyOnError = true;
-      formattersByFt = {
+      notify_on_error = true;
+      formatters_by_ft = {
         html = [
+          [
             "prettierd"
+            "prettier"
+          ]
         ];
         css = [
+          [
             "prettierd"
+            "prettier"
+          ]
         ];
         javascript = [
+          [
             "prettierd"
+            "prettier"
+          ]
         ];
         javascriptreact = [
+          [
             "prettierd"
+            "prettier"
+          ]
         ];
         typescript = [
+          [
             "prettierd"
+            "prettier"
+          ]
         ];
         typescriptreact = [
+          [
             "prettierd"
+            "prettier"
+          ]
         ];
         java = [ "google-java-format" ];
         python = [ "black" ];
