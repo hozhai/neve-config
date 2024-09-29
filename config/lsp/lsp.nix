@@ -6,6 +6,7 @@
     lsp = {
       enable = true;
       capabilities = "offsetEncoding =  'utf-16'";
+      inlayHints = true;
       servers = {
         clangd = {
           enable = true;
@@ -27,9 +28,6 @@
               };
             };
           };
-        };
-        nil_ls = {
-          enable = true;
         };
         nixd = {
           enable = true;
@@ -88,12 +86,12 @@
             check = {
               command = "clippy";
             };
-            # inlayHints = {
-            #   enable = true;
-            #   showParameterNames = true;
-            #   parameterHintsPrefix = "<- ";
-            #   otherHintsPrefix = "=> ";
-            # };
+            inlayHints = {
+              enable = true;
+              showParameterNames = true;
+              parameterHintsPrefix = "<- ";
+              otherHintsPrefix = "=> ";
+            };
             procMacro = {
               enable = true;
             };
