@@ -5,7 +5,6 @@
       auto_close = true;
     };
   };
-  # TODO: Add keybinds to close trouble (q would be nice), rn I need to use :x to close it...
   keymaps = [
     {
       mode = "n";
@@ -15,16 +14,16 @@
     {
       mode = "n";
       key = "<leader>xx";
-      action = "<cmd>TroubleToggle<cr>";
+      action = "<cmd>Trouble diagnostics toggle filter.buf=0<cr>";
       options = {
         silent = true;
-        desc = "Document Diagnostics (Trouble)";
+        desc = "Buffer Diagnostics (Trouble)";
       };
     }
     {
       mode = "n";
       key = "<leader>xX";
-      action = "<cmd>TroubleToggle workspace_diagnostics<cr>";
+      action = "<cmd>Trouble diagnostics toggle<cr>";
       options = {
         silent = true;
         desc = "Workspace Diagnostics (Trouble)";
@@ -41,8 +40,8 @@
     }
     {
       mode = "n";
-      key = "<leader>xQ";
-      action = "<cmd>TodoQuickFix<cr>";
+      key = "<leader>xq";
+      action = "<cmd>Trouble qflist toggle<cr>";
       options = {
         silent = true;
         desc = "Quickfix List (Trouble)";

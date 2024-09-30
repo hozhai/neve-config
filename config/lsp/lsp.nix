@@ -11,6 +11,9 @@
         clangd = {
           enable = true;
         };
+        cssls = {
+          enable = true;
+        };
         lua-ls = {
           enable = true;
           extraOptions = {
