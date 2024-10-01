@@ -11,6 +11,9 @@
         clangd = {
           enable = true;
         };
+        gopls = {
+          enable = true;
+        };
         cssls = {
           enable = true;
         };
